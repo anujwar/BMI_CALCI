@@ -77,8 +77,8 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
           Expanded(
-              child: Image.network(
-            'https://media.giphy.com/media/btq3qTOq0pT8Y/giphy.gif',
+              child: Image.asset(
+            'assets/bmi.webp',
             height: 400,
             fit: BoxFit.contain,
           )),
